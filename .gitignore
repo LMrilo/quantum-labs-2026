@@ -1,1 +1,43 @@
+# AI tooling
 .aider*
+**/.aider*
+.claude/
+**/CLAUDE.md
+.cursor/
+.cursorrules
+.codeium/
+.opencode/
+
+# Private workflow
+*-spec.md
+*.review.md
+specs/
+prompts/
+test_invariants*
+verify-loop*
+TheoremClaim*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*-scratch.ipynb
+*-explore.ipynb
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
