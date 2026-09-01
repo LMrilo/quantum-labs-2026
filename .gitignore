@@ -8,15 +8,6 @@
 .codeium/
 .opencode/
 
-# Private workflow
-*-spec.md
-*.review.md
-specs/
-prompts/
-test_invariants*
-verify-loop*
-TheoremClaim*
-
 # Python
 __pycache__/
 *.pyc
