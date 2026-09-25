@@ -1,0 +1,28 @@
+# Lab 9 - BB84 on the Bench: the worked example of the kit manual, Chapter 6, per pulse (18 pulses)
+# Source: Thorlabs, "EDU-QCRY1 Quantum Cryptography Demonstration Kit, User Manual",
+#   document MTN005660-D02, Rev D (2026-01-22), Chapter 6 "Examples":
+#   §6.1 Step 3 (p. 29), no Eve: alice_basis, alice_bit, bob_basis, bob_bit_no_eve;
+#   §6.2 Step 2 (p. 32), with Eve: eve_basis, eve_bit, bob_bit_with_eve
+#   (in §6.2 Alice's bases and bits and Bob's bases are those of §6.1).
+# Data: per-pulse tables transcribed with attribution; everything derived is recomputed in the notebook.
+# Kit labels: bases + and x; bits 0 and 1 (a receiver records transmitted = 0, reflected = 1);
+#   pulses numbered 1-18 as printed.
+pulse,alice_basis,alice_bit,bob_basis,bob_bit_no_eve,eve_basis,eve_bit,bob_bit_with_eve
+1,x,1,+,1,x,1,1
+2,x,0,x,0,x,0,0
+3,+,0,x,1,+,0,1
+4,x,1,x,1,+,0,1
+5,+,1,+,1,x,1,0
+6,+,0,+,0,+,0,0
+7,+,0,+,0,+,0,0
+8,x,1,x,1,+,1,0
+9,x,1,+,1,x,1,1
+10,+,1,x,1,x,0,0
+11,x,0,x,0,x,0,0
+12,x,1,+,1,x,1,0
+13,x,0,+,0,+,1,1
+14,+,0,x,1,x,1,1
+15,+,0,+,0,+,0,0
+16,x,1,+,0,x,1,0
+17,+,0,+,0,+,0,0
+18,x,1,x,1,+,1,0
