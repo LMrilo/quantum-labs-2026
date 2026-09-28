@@ -1,0 +1,26 @@
+# Lab 10 - Quantum Optics on the Bench: the worked examples of the kit manual, as printed
+# Source: Thorlabs, "EDU-QOP1(/M) Quantum Optics Kit User Guide", Rev. D (2025-10-25), Chapter 9 "Experiments":
+#   §9.1 (p. I-113), Table 1 "Results of Example Measurement (HBT with Attenuated Laser)";
+#   §9.1 (p. I-113), the estimate n = l f / c of the photons inside the setup (source §9.1 text);
+#   §9.4 (p. I-117), Table 2 "Example Measurement for the Grangier-Roger-Aspect Experiment".
+# Data: the printed values transcribed with attribution; everything derived is recomputed in the notebook.
+# Columns: manual_label and printed as in the manual; value = the same number in SI units
+#   (Hz, s, counts, m, m/s; g2 has no unit). Table 2 prints counts, no rates and no window.
+source,quantity,manual_label,printed,value,unit
+Table 1,window,Δt,5 ns,5e-09,s
+Table 1,R_A,R_A,391118.45 Hz,391118.45,Hz
+Table 1,R_B,R_B,315945.65 Hz,315945.65,Hz
+Table 1,R_AB,R_AB,619.1 Hz,619.1,Hz
+Table 1,g2_HBT,g2_HBT(0),1.00201,1.00201,
+§9.1 text,l,l (length of the setup),1 m,1.0,m
+§9.1 text,f,f (overall frequency of photons),1.2·10^6 Hz,1200000.0,Hz
+§9.1 text,c,c (speed of light),3·10^8 m/s,300000000.0,m/s
+Table 2,time,Total Measurement Time,20.000 s,20.0,s
+Table 2,N_T,Counts (Detector T),4.638 M,4638000,counts
+Table 2,N_A,Counts (Detector A),2.905 M,2905000,counts
+Table 2,N_B,Counts (Detector B),2.925 M,2925000,counts
+Table 2,N_TA,Coincidence Counts (T&A),"385,865",385865,counts
+Table 2,N_TB,Coincidence Counts (T&B),"324,688",324688,counts
+Table 2,N_TAB,Coincidence Counts (T&A&B),513,513,counts
+Table 2,g2_PS,g2(0) - Correlation T&A,115,115.0,
+Table 2,g2_GRA,g2(0) - Correlation A&B Triggered by T (GRA Setup),0.0190,0.019,

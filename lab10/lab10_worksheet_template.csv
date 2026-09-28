@@ -1,0 +1,63 @@
+# Lab 10 - Quantum Optics on the Bench: worksheet template for one group (W1-W4), one value per row
+# Fill the value column only; leave a value blank if you did not measure it. Units are those of the unit column.
+# W1 (Part A): the window (run all; also used for W2 and W3), then R_A, R_B, R_AB of runs 1-3 at the kit
+#   setting; run ND = the optional extra ND filter.
+# W2 (Part B): R_T, R_A, R_TA of your run.
+# W3 (Part C): measurement time, the counts N_T, N_TA, N_TB, N_TAB of your GRA run and the rates R_A, R_B
+#   (R_T, R_TA, R_TB = counts / time are computed).
+# W4 (Part D): N_max = number of fringe maxima, x_first and x_last = first and last maximum (micrometres);
+#   x_max_1 ... x_max_20 = the maxima you recorded, in order (optional); R_max, R_min of the fringes;
+#   g2_GRA read during the scan at a maximum, a minimum and in between.
+# Schema provisional: the manual (§11.7, §11.9) fixes no export format; real i-LAMP software CSVs replace it.
+sheet,run,quantity,unit,value
+W1,all,window,ns,
+W1,1,R_A,Hz,
+W1,1,R_B,Hz,
+W1,1,R_AB,Hz,
+W1,2,R_A,Hz,
+W1,2,R_B,Hz,
+W1,2,R_AB,Hz,
+W1,3,R_A,Hz,
+W1,3,R_B,Hz,
+W1,3,R_AB,Hz,
+W1,ND,R_A,Hz,
+W1,ND,R_B,Hz,
+W1,ND,R_AB,Hz,
+W2,1,R_T,Hz,
+W2,1,R_A,Hz,
+W2,1,R_TA,Hz,
+W3,1,time,s,
+W3,1,N_T,counts,
+W3,1,N_TA,counts,
+W3,1,N_TB,counts,
+W3,1,N_TAB,counts,
+W3,1,R_A,Hz,
+W3,1,R_B,Hz,
+W4,1,N_max,,
+W4,1,x_first,um,
+W4,1,x_last,um,
+W4,1,x_max_1,um,
+W4,1,x_max_2,um,
+W4,1,x_max_3,um,
+W4,1,x_max_4,um,
+W4,1,x_max_5,um,
+W4,1,x_max_6,um,
+W4,1,x_max_7,um,
+W4,1,x_max_8,um,
+W4,1,x_max_9,um,
+W4,1,x_max_10,um,
+W4,1,x_max_11,um,
+W4,1,x_max_12,um,
+W4,1,x_max_13,um,
+W4,1,x_max_14,um,
+W4,1,x_max_15,um,
+W4,1,x_max_16,um,
+W4,1,x_max_17,um,
+W4,1,x_max_18,um,
+W4,1,x_max_19,um,
+W4,1,x_max_20,um,
+W4,1,R_max,Hz,
+W4,1,R_min,Hz,
+W4,1,g2_GRA_at_max,,
+W4,1,g2_GRA_at_min,,
+W4,1,g2_GRA_between,,
